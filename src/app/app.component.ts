@@ -9,5 +9,9 @@ import { RouterOutlet } from '@angular/router';
   styleUrl: './app.component.css'
 })
 export class AppComponent {
-  title = 'hello-app';
+  title = 'angular-intro';
+
+  ngOnInit() {
+    this.title = "Hello from BridgeLabz";
+  }
 }
